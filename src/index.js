@@ -12,7 +12,7 @@ ReactDOM.render(
   <Provider store={store}>
     <App />
     <div>哈哈哈啊122226666</div>
-    <div>哈哈哈啊122227777</div>
+    <div>哈哈哈啊122227777999</div>
   </Provider>
   ,
   document.getElementById('root')
