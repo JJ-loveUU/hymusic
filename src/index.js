@@ -6,13 +6,14 @@ import '@/assets/css/reset.css'
 import store from './store'
 
 import App from './App';
+import jquery from 'jquery'
+
+window.jQuery = jquery;
 
 
 ReactDOM.render(
   <Provider store={store}>
     <App />
-    <div>哈哈哈啊122226666</div>
-    <div>哈哈哈啊122227777999</div>
   </Provider>
   ,
   document.getElementById('root')

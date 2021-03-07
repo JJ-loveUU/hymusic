@@ -21,7 +21,7 @@ export default memo(function App() {
           {renderRoutes(routes)}
 
         </Suspense>
-        <AppFooter></AppFooter>
+        {/*<AppFooter></AppFooter>*/}
       </HashRouter>
       <AppPlayer />
     </Fragment>
